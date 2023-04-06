@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    
+      <label for="name">Name and Lastname:</label>
+      <input type="text" id="name" name="name" required>
+    
+      <label for="dob">Date of birth:</label>
+      <input type="date" id="dob" name="dob" required>
+    
+      <label for="tel">Telephone number:</label>
+      <input type="tel" id="tel" name="tel" required>
+    
+      <label for="plans">Your plan of choose:</label>
+      <select id="plans" name="plans">
+        <option value="free">Free Plan</option>
+        <option value="better">Better Plan (Price/month)</option>
+        <option value="bettter">Much Better Plan (Higher Price/month)</option>
+        <option value="best">Best Plan (Even Higher Price/month)</option>
+      </select>
+    
+      <label for="pro">Pro Plan:</label>
+      <input type="checkbox" id="pro" name="pro">
+    
+      <label for="creditcard">Credit Card Number:</label>
+      <input type="text" id="creditcard" name="creditcard" required>
+    
+      <label for="cvc">CVC:</label>
+      <input type="text" id="cvc" name="cvc" required>
+    
+      <label for="expdate">Expiration Date:</label>
+      <input type="month" id="expdate" name="expdate" required>
+    
+      <label for="billingaddress">Billing Address:</label>
+      <input type="text" id="billingaddress" name="billingaddress" required>
+    
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
